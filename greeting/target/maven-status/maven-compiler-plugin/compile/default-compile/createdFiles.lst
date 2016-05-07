@@ -1,0 +1,3 @@
+org/osgicn/karaf/greeting/GreetingComponent.class
+org/osgicn/karaf/greeting/api/GreetingService.class
+org/osgicn/karaf/greeting/impl/GreetingServiceImpl.class

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462587648440
+Build-Jdk: 1.8.0_91
+Built-By: wenjian
+Bundle-ManifestVersion: 2
+Bundle-Name: karaf-app-hello
+Bundle-SymbolicName: org.osgicn.karaf.app-hello
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.osgicn.karaf.hello.api;version="1.0.0.SNAPSHOT",org.
+ osgicn.karaf.hello;uses:="org.osgicn.karaf.hello.api";version="1.0.0.SN
+ APSHOT"
+Import-Package: org.osgicn.karaf.hello.api,org.slf4j;version="[1.7,2)"
+Service-Component: OSGI-INF/org.osgicn.karaf.hello.HelloComponent.xml,OS
+ GI-INF/org.osgicn.karaf.hello.impl.HelloServiceImpl.xml
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462587649015
+Build-Jdk: 1.8.0_91
+Built-By: wenjian
+Bundle-ManifestVersion: 2
+Bundle-Name: karaf-app-greeting
+Bundle-SymbolicName: org.osgicn.karaf.app-greeting
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.osgicn.karaf.greeting.api;version="1.0.0.SNAPSHOT",o
+ rg.osgicn.karaf.greeting;uses:="org.osgicn.karaf.greeting.api,org.osgic
+ n.karaf.hello.api";version="1.0.0.SNAPSHOT"
+Import-Package: org.osgicn.karaf.greeting.api,org.osgicn.karaf.hello.api
+ ;version="[1.0,2)",org.slf4j;version="[1.7,2)"
+Service-Component: OSGI-INF/org.osgicn.karaf.greeting.impl.GreetingServi
+ ceImpl.xml,OSGI-INF/org.osgicn.karaf.greeting.GreetingComponent.xml
+Tool: Bnd-2.1.0.20130426-122213

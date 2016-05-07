@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/karaf-app.iml" filepath="$PROJECT_DIR$/karaf-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/karaf-app-features.iml" filepath="$PROJECT_DIR$/features/karaf-app-features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greeting/karaf-app-greeting.iml" filepath="$PROJECT_DIR$/greeting/karaf-app-greeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello/karaf-app-hello.iml" filepath="$PROJECT_DIR$/hello/karaf-app-hello.iml" />
+    </modules>
+  </component>
+</project>

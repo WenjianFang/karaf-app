@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.osgicn.karaf.greeting.GreetingComponent" activate="activate" deactivate="deactivate">
+    <implementation class="org.osgicn.karaf.greeting.GreetingComponent"/>
+    <property name="service.pid" value="org.osgicn.karaf.greeting.GreetingComponent"/>
+    <reference name="helloService" interface="org.osgicn.karaf.hello.api.HelloService" cardinality="1..1" policy="static" bind="bindHelloService" unbind="unbindHelloService"/>
+    <reference name="greetingService" interface="org.osgicn.karaf.greeting.api.GreetingService" cardinality="1..1" policy="static" bind="bindGreetingService" unbind="unbindGreetingService"/>
+</scr:component>

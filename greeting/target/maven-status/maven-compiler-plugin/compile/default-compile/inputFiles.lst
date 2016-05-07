@@ -1,0 +1,3 @@
+/home/wenjian/karaf-app/greeting/src/main/java/org/osgicn/karaf/greeting/api/GreetingService.java
+/home/wenjian/karaf-app/greeting/src/main/java/org/osgicn/karaf/greeting/impl/GreetingServiceImpl.java
+/home/wenjian/karaf-app/greeting/src/main/java/org/osgicn/karaf/greeting/GreetingComponent.java

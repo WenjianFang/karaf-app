@@ -1,0 +1,3 @@
+org/osgicn/karaf/hello/impl/HelloServiceImpl.class
+org/osgicn/karaf/hello/api/HelloService.class
+org/osgicn/karaf/hello/HelloComponent.class
